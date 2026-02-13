@@ -4,9 +4,8 @@ description: >
   Analyze Claude Code permission patterns and recommend auto-allow rules to improve flow state.
   Shows flow score, interruption metrics, multi-level analysis, and before/after projections.
   Invoke at the start of a session or between tasks. Never invoke mid-task.
-allowed-tools: Read, Edit, Bash(python3 *)
+allowed-tools: [Read, Edit, "Bash(python3 *)"]
 disable-model-invocation: false
-user-invocable: true
 ---
 
 # Autoflow Audit

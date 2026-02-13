@@ -2,6 +2,5 @@
   "name": "autoflow",
   "version": "1.0.0",
   "description": "Iteratively optimize your Claude Code flow state by analyzing permission patterns and recommending auto-allow rules.",
-  "skills": ["skills/audit"],
-  "hooks": "hooks/hooks.json"
+  "hooks": "./hooks/hooks.json"
 }
